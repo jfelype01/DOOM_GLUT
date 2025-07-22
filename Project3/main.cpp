@@ -282,7 +282,6 @@ void draw3D() {
             return a.d > b.d;
             });
 
-
         S[s].d = 0;
 
         if (P.z < S[s].z1) {
