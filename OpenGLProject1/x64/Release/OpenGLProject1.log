@@ -1,2 +1,0 @@
-﻿  main.cpp
-C:\Users\Felype\source\repos\OpenGLProject1\OpenGLProject1\main.cpp(1,10): error C1083: Não é possível abrir arquivo incluir: 'GL/GLUT.h': No such file or directory
