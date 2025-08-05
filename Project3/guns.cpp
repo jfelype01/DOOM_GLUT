@@ -35,7 +35,7 @@ int frameCounter = 0;
 int frameDelay = 5;
 int frameDelaySG = 9;
 
-// DeclaraÁ„o do vetor de inimigos
+// Declara√ß√£o do vetor de inimigos
 extern std::vector<ENEMY> inimigos;
 
 void GunInit() {
@@ -46,7 +46,7 @@ void GunInit() {
 
     guns[1].arc = 50;
     guns[1].range = 2000;
-    guns[1].damage = 9;
+    guns[1].damage = 50;
     guns[1].shootDelay = 9; // Rifle
 }
 
@@ -58,22 +58,22 @@ void raycasting(int gun, double px, double py, double dx, double dy) {
         float shootX = px + dx * dist;
         float shootY = py + dy * dist;
 
-        // Verifica colis„o com inimigo
+        // Verifica colis√£o com inimigo
         for (ENEMY& inimigo : inimigos) {
 
             if (!inimigo.alive) {
-                continue; // Pula inimigos que j· terminaram a animaÁ„o de morte
+                continue; // Pula inimigos que j√° terminaram a anima√ß√£o de morte
             }
 
             double distToEnemy = sqrt((shootX - inimigo.x) * (shootX - inimigo.x) + (shootY - inimigo.y) * (shootY - inimigo.y));
 
-            //std::cout << "Player em: (" << px << ", " << py << "); " << "Tiro em (" << shootX << ", " << shootY << "), inimigo em (" << inimigo.x << ", " << inimigo.y << " Dist‚ncia: (" << distToEnemy << ")\n";
+            //std::cout << "Player em: (" << px << ", " << py << "); " << "Tiro em (" << shootX << ", " << shootY << "), inimigo em (" << inimigo.x << ", " << inimigo.y << " Dist√¢ncia: (" << distToEnemy << ")\n";
 
             if (distToEnemy < guns[gun].arc && inimigo.hp > 0) { // raio de acerto
                 inimigo.hp -= guns[gun].damage; // Aplica dano
                 std::cout << "Inimigo atingido! HP restante: " << inimigo.hp << std::endl;
-                // AQUI EST¡ A CORRE«√O:
-                // SÛ inicia a animaÁ„o de morte se o inimigo ainda n„o estiver morrendo (state != 3)
+                // AQUI EST√Å A CORRE√á√ÉO:
+                // S√≥ inicia a anima√ß√£o de morte se o inimigo ainda n√£o estiver morrendo (state != 3)
                 if (inimigo.hp <= 0 && inimigo.state != 3) {
                     inimigo.state = 3; // Mude o estado para morrendo
                     inimigo.deathFrameCount = 0; // Inicia o contador de frames da morte
@@ -113,7 +113,7 @@ void shoot(int gun) {
         dy[4] = M.cos[angle - 5];
     }
 
-	//std::cout << "Disparando arma " << gun << " de (" << px << ", " << py << ") na direÁ„o (" << dx << ", " << dy << ")\n";
+	//std::cout << "Disparando arma " << gun << " de (" << px << ", " << py << ") na dire√ß√£o (" << dx << ", " << dy << ")\n";
 	//std::cout << "Inimigo: " << inimigos[0].x << ", " << inimigos[0].y << std::endl;
 
     for (int i = 0; i < size; ++i) {
@@ -293,4 +293,5 @@ void MouseClick(int button, int state, int x, int y) {
             mouseHeld = false;
         }
     }
+
 }
