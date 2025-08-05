@@ -1,0 +1,22 @@
+AF = Andando para frente
+AE = Andando para esquerda
+AD = Andando para direita
+AT = Andando para trás
+AFDE = Andando para frente na diagonal esquerda
+ATDE = Andando para trás na diagonal esquerda
+AFDD = Andando para frente na diagonal direita
+ATDD = Andando para trás na diagonal direita
+TF = Ataca para frente
+TE = Ataca para esquerda
+TD = Ataca para direita
+TFDE = Ataca para frente na diagonal esquerda
+TTDE = Ataca para trás na diagonal esquerda
+
+TT = Ataca para trás
+RDF = Recebe dano frente
+RDFDE = Recebe dano frente diagonal esquerda
+RDE = Recebe dano esquerda
+RDTDE = Recebe dano trás diagonal esquerda
+RDT = Recebe dano trás
+EX = Explode
+M = Morte
