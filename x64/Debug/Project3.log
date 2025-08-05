@@ -1,0 +1,60 @@
+﻿  enemy.cpp
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(110,22): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(111,22): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(122,44): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(123,44): warning C4244: '-=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(124,44): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(125,44): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(137,25): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(138,25): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(146,32): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(207,45): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(208,45): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(255,21): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(256,21): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\enemy.cpp(258,24): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+  guns.cpp
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\guns.cpp(54,23): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\guns.cpp(58,22): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\guns.cpp(59,22): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\guns.cpp(73,40): warning C4244: '-=': conversão de 'double' para 'int', possível perda de dados
+  main.cpp
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\main.cpp(60,61): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\main.cpp(64,60): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\main.cpp(32,12): warning C4101: 'y': variável local não referenciada
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\main.cpp(32,9): warning C4101: 'x': variável local não referenciada
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\main.cpp(122,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  map.cpp
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(54,15): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(55,15): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(59,15): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(82,16): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(83,16): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(146,28): warning C4553: '==': o resultado da expressão não usado; você pretendia que fosse '='?
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(152,25): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(154,25): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(218,35): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(219,35): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(223,35): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(224,35): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(231,39): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(232,39): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(233,39): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(234,39): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(287,20): warning C4553: '==': o resultado da expressão não usado; você pretendia que fosse '='?
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(290,22): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(293,14): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(294,17): warning C4244: '=': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(299,21): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(301,21): warning C4305: '=': truncamento de 'double' para 'float'
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(272,12): warning C4101: 'y': variável local não referenciada
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\map.cpp(331,12): warning C4101: 'w': variável local não referenciada
+  player.cpp
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\player.cpp(46,12): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\player.cpp(47,12): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\player.cpp(163,23): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\player.cpp(167,22): warning C4244: '+=': conversão de 'float' para 'int', possível perda de dados
+  utils.cpp
+C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\Project3\utils.cpp(19,18): warning C4244: 'inicializando': conversão de 'double' para 'int', possível perda de dados
+  Gerando Código...
+  Project3.vcxproj -> C:\Users\Felype\Downloads\Project3 (1) (1)\Project3 (1)\Project3\Project3\x64\Debug\Project3.exe
